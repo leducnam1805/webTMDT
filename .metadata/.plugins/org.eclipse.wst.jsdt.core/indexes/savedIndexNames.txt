@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+E:\java\33_du-an-ban-my-pham\shopNuocHoa\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2368435236.index
+4044637908.index
+458812213.index
+4049156702.index
+1940365294.index
+1754217760.index

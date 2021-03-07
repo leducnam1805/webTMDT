@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//WebContent/templates/admin/inc/sidebar.jsp=UTF-8
+encoding//WebContent/templates/public/inc/header.jsp=UTF-8
+encoding//WebContent/templates/public/inc/headerMessage.jsp=UTF-8
+encoding//WebContent/templates/public/inc/library/libraryHeader.jsp=UTF-8
+encoding//WebContent/templates/public/inc/slide.jsp=UTF-8
+encoding//WebContent/views/admin/index.jsp=UTF-8
+encoding//WebContent/views/auth/login.jsp=UTF-8
+encoding//WebContent/views/public/beauty-expert.jsp=UTF-8
+encoding//WebContent/views/public/blog.jsp=UTF-8
+encoding//WebContent/views/public/contact.jsp=UTF-8
+encoding//WebContent/views/public/index.jsp=UTF-8
+encoding//WebContent/views/public/product-single.jsp=UTF-8
+encoding//WebContent/views/public/shop-by-brand.jsp=UTF-8
+encoding/<project>=UTF-8

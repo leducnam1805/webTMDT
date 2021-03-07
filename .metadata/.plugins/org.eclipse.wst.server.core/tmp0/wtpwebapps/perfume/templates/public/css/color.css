@@ -1,0 +1,111 @@
+/*!
+ * 
+ * Perfume eCommerce HTML5 Template v.1.0.0
+ * 
+ */
+
+
+/*
+[Table of contents]
+
+1. Text Color
+2. Background Color
+3. Border Color
+*/
+
+
+/*** Text Colors
+----------------------------------------------------------------- ***/
+a:hover, a:focus, .btn-primary .badge, .text-primary, a.text-primary:hover, .team-image:hover figcaption, .tp-links > li > span:hover, .tp-links > li.open > span, .dropBox .help-block a:hover, .main-nav li:hover > a, .feature-bx .iconic, .breadcrumb > .active, .breadcrumb > .active > a, .team-image:hover a .text-white, .team-image a.active .text-white, .team-image a.active, .pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus, ul.filter-tabs li.active, .refine-filters:hover, .clear-filters:hover, .blog-bottom-bar .meta-list a:hover, .widget_categories ul li:hover, .widget_categories ul li:hover:before, .widget-tweets > ul > li:before, .widget-tweets a, .edit-info .glyphicon, .comment-box .media-heading {
+	color:#e32a53;
+}
+
+
+/*** Background Color
+----------------------------------------------------------------- ***/
+
+.btn-primary, .cart-btn .badge, .bg-primary, .widget-heading:before, .progress-bar-primary, .post-date, .widget-search-site form:after, .widget-tab-head > li.active a, .comment-reply-link, .thumbnail-2 .tick, .pageWrap .tp-leftarrow.default:hover,
+.pageWrap .tp-rightarrow.default:hover, .offer-tip {
+	background-color: #e32a53;
+}
+
+
+::selection {
+	background-color:#e32a53;
+}
+::-moz-selection {
+	background-color:#e32a53;
+}
+
+
+/*** Border Color
+----------------------------------------------------------------- ***/
+
+.btn-primary, .feature-bx .iconic, .bg-dark .btn-default:hover, .bg-dark .btn-default:focus {
+	border-color:#e32a53;
+}
+
+
+/*** Disabled colors
+----------------------------------------------------------------- ***/
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+	background-color: #e35d7b;
+	border-color: #e35d7b;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background-color: #e35d7b;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	border-color: #e35d7b;
+}
+
+/*** Hover Color
+----------------------------------------------------------------- ***/
+
+.comment-box .media-heading:hover {
+	color:#be072f;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary,
+.comment-reply-link:hover {
+	background-color:#be072f;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+	border-color:#be072f;
+}
+

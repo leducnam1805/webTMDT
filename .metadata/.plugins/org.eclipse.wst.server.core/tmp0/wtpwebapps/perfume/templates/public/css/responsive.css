@@ -1,0 +1,785 @@
+/*!
+ * 
+ * Perfume eCommerce HTML5 Template v.1.0.0
+ * 
+ */
+
+@media (min-width: 480px) {
+
+.logo {
+	float: left;
+}
+.user-controls-bar {
+	float: right;
+	border-top: 0px;
+}
+
+.text-center .ad-box {
+	min-width: 360px;
+	display: inline-block;
+}
+.text-center .ad-box-outlined {
+	min-width: 390px;
+}
+[class^="col-"] + [class^="col-"] .ad-box {
+	margin-top: 30px;
+}
+[class^="col-"] + [class^="col-"] .ad-box-outlined {
+	margin-top: 0px;
+}
+
+
+.promotion-box h3 {
+	font-size: 126px;
+}
+.promotion-box h4 {
+	font-size: 40px;
+}
+.bar-form {
+	width: 290px;
+}
+
+.prod-review-edit-list > li {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom: 0px;
+}
+
+.aplha-details > ul {
+	width: 50%;
+	padding: 0px 20px;
+	float: left;
+}
+
+.countdown-section {
+	padding: 6px 12px;
+	margin: 15px 6px;
+}
+.countdown-amount {
+	font-size: 24px;
+}
+.countdown-period {
+	font-size: 15px;
+}
+
+
+}
+
+@media (min-width: 768px) {
+
+.tp-links > li,
+.user-controls > li {
+	position: relative;
+}
+
+.dropBox {
+	width: 400px;
+	position: absolute;
+	left: auto;
+	right: 0;
+	top:100%;
+}
+.dropBox-condensed {
+	width: 150px;
+}
+.dropBox .form-left {
+	float: left;
+	width: 242px;
+	margin-right: 10px;
+	margin-bottom: -10px;
+}
+.dropBox form {
+	position: relative;
+}
+.dropBox form .btn {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+
+/*** Main-nav ***/
+.main-nav-bar .navbar-collapse {
+	padding-left: 0;
+	padding-right: 0;
+}
+.main-nav li {
+	padding: 0px;
+}
+
+.main-nav > li,
+.footer-links li {
+	float: left;
+	margin-right: -1px;
+	border-left: 1px solid #efefef;
+	border-right: 1px solid #efefef;
+	border-top: 0px;
+}
+.footer-links li {
+	margin-top: -1px;
+	border-top: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+}
+.main-nav > li + li {
+	border-top: 0px;
+}
+.main-nav > li > a,
+.footer-links li a {
+	padding: 12px 20px;
+}
+.main-nav li li {
+	padding-left: 24px;
+}
+.main-nav li li:before {
+	font-family: "Flaticon";
+	content: "\e010";
+	position: absolute;
+	left: 0;
+	top:10px;
+}
+.main-nav ul {
+	padding: 15px 30px 10px 30px;
+	margin: 1px 0px 0px 0px;
+	width: 240px;
+	border-top: 0px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+	display: block;
+	z-index: 500;
+	position: absolute;
+	top: 100%;
+	left: 20px;
+
+	opacity: 0;
+	visibility: hidden;
+	transform: translate(0px, 20px);
+}
+.main-nav li:hover > ul {
+	opacity: 1;
+	visibility: visible;;
+	transform: translate(0px);
+}
+.main-nav ul ul {
+	margin-left: 0px;
+	left: 100%;
+	top:0px;
+	transform: translate(20px, 0px);
+}
+.main-nav li.has-ul.open {
+	background-color: #fff;
+}
+.main-nav li.has-ul > a {
+	margin-right: 0px;
+}
+.menu-sibling,
+.main-nav li.has-ul:after {
+	display: none;
+}
+
+.user-controls > li.toggle-menu,
+.toggle-menu {
+	display: none;
+}
+
+.ad-box {
+	margin: 30px 20px 50px 0px;
+}
+.text-center .ad-box {
+	min-width: auto;
+	display: inline-block;
+}
+.text-center .ad-box-outlined {
+	min-width: auto;
+}
+.text-center .ad-box {
+	min-width: none;
+	display: block;
+}
+.text-center .ad-box-outlined {
+	min-width: none;
+}
+[class^="col-"] + [class^="col-"] .ad-box {
+	margin-top: 30px;
+}
+[class^="col-"] + [class^="col-"] .ad-box-outlined {
+	margin-top: 30px;
+}
+.ad-box-outlined {
+	margin-right: 0px;
+}
+.ad-box h4 {
+	font-size: 20px;
+}
+.ad-box p {
+	font-size: 14px;
+}
+.ad-box > figure {
+	width: 90px;
+}
+
+.featured-box .image {
+	margin-bottom: 0px;
+}
+.featured-box .image img {
+	margin-left: 0;
+}
+.featured-box .text {
+	text-align: left;
+}
+
+.featured-box h4 {
+	font-size: 26px;
+	font-weight: 400;
+}
+
+.promotion-box h3 {
+	font-size: 155px;
+}
+.promotion-box h4 {
+	font-size: 45px;
+}
+
+.text-center .thumbnail {
+	display: block;
+}
+
+
+.subscription-box {
+	min-height: 425px;
+	padding-top: 0px;
+	margin: 0 0px 30px 0px;
+}
+.subscription-box:before {
+	display: none;
+}
+
+.footer-widgets .widget {
+	margin-bottom: 0px;
+}
+
+.service-box .image {
+	margin-bottom: 0;
+}
+
+
+.testim-box {
+	margin-left: -20px;
+	margin-right: -20px;
+}
+.testim-box .head {
+	width: 45%;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	float: left;
+	text-align: center;
+	border-right: 1px solid #f0f0f0;
+}
+.testim-box .text {
+	width: 55%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: -1px;
+	text-align: left;
+	float: left;
+	border-left: 1px solid #f0f0f0;
+}
+.testim-box .head h3 {
+	padding-bottom: 0px;
+	border-bottom: 0px;
+}
+
+.cart-actions .col-sm-6:first-child a {
+	margin-top: 15px;
+	margin-bottom: 0px;
+	display: inline-block;
+}
+.cart-actions .col-sm-6:first-child a.btn {
+	margin-top: 0;
+}
+.cart-actions .col-sm-6:last-child,
+.action-bar .col-sm-6:last-child {
+	text-align:right;
+}
+
+.price-detail {
+	text-align: right;
+}
+
+
+.prod-review-box .product-meta-info:before,
+.prod-review-box .text:before {
+	width: 0;
+	height: 100%;
+	border-top: 0;
+	border-left: 1px solid #f4f4f4;
+	top: 0px;
+	left: -15px;
+	bottom: auto;
+}
+.prod-review-box .product-meta-info:before {
+	left: auto;
+	right: -16px;
+}
+.video-box iframe,
+.post-multimedia iframe {
+	height: 360px;
+}
+
+.single-container {
+	margin-bottom: 50px;
+}
+
+.aplha-details > ul {
+	width: 33.333%;
+	padding: 0px 25px;
+}
+.page-heading {
+	margin-bottom: 70px;
+}
+
+
+/*** Categories Page
+------------------------------------------------ *****/
+
+.filter-head > strong {
+	float: left;
+}
+.filter-head .filter-tabs {
+	margin-left: 71px;
+	display: block;
+}
+.filter-head .filter-tabs li.layout-list,
+.filter-head .filter-tabs li.layout-grid {
+	float: right;
+	font-size: 16px;
+}
+.filter-head .filter-tabs li.layout-list .flaticon-menu10 {
+	position: relative;
+	top: 1px;
+}
+
+.layout-list .thumbnail-product {
+	text-align: left;
+}
+.layout-list > li {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #f1f1f1;
+	margin-bottom: 30px;
+}
+.layout-list > li:last-child {
+	border-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+
+.layout-grid {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.layout-grid > li {
+	width: 33.333%;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+
+.layout-list .thumbnail-product {
+	margin-bottom: 0px;
+}
+.layout-list .thumbnail-product > figure {
+	width: 265px;
+	float: left;
+}
+.layout-list .thumbnail-product .caption {
+	margin-left: 265px;
+}
+.layout-list .thumbnail-product .text-wrap {
+	width: 50%;
+	float: left;
+}
+.layout-list .thumbnail-product .list-wrap {
+	margin-left: 50%;
+	padding-left: 10px;
+	display: block;
+}
+.layout-list .list-wrap ul.list-6 {
+	margin-bottom: 0;
+}
+.filter-list .text-wrap .view-detail {
+	display: inline-block;
+}
+.layout-grid .list-wrap,
+.layout-list .list-wrap .view-detail {
+	display: none;
+}
+
+.blog-bottom-bar .posted {
+	margin-bottom: 0;
+	float: left;
+}
+.blog-bottom-bar .meta-list {
+	float: right;
+}
+.blog-bottom-bar .meta-list li {
+	padding-right: 0px;
+}
+.blog-bottom-bar .meta-list li + li {
+	padding-left: 10px;	
+}
+
+.comment-reply-link {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.newsletter-holder {
+	width: 685px;
+	margin-left: -342.5px;
+	position: fixed;
+	left: 50%;
+}
+.newsletter-open .newsletter-holder {
+	top: 100px;
+}
+.offer-tip {
+	width: 350px;
+	height: 350px;
+	color: #fff;
+	display: inline-block;
+	text-align: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: rotate(45deg) translate(-248px);
+	-moz-transform: rotate(45deg) translate(-248px);
+	-webkit-transform: rotate(45deg) translate(-248px);
+	-ms-transform: rotate(45deg) translate(-248px);
+}
+.offer-tip .offer-tip-inner {
+	padding: 30px;
+	display: inline-block;
+	transform: rotate(-45deg) translate(62px, 200px);
+	-moz-transform: rotate(-45deg) translate(62px, 200px);
+	-webkit-transform: rotate(-45deg) translate(62px, 200px);
+	-ms-transform: rotate(-45deg) translate(62px, 200px);
+}
+.offer-tip h1 {
+	margin-bottom: 0;
+	line-height: 1;
+	font-size: 60px;
+}
+.offer-tip span {
+	font-size: 20px;
+}
+
+
+.error-content,
+.comingsoon-content {
+	padding: 70px 0px;
+}
+.error-content h1 {
+	font-size: 100px;
+}
+.error-content p {
+	margin-bottom: 70px;
+}
+
+
+.countdown-section {
+	padding: 10px 20px;
+	margin: 20px 10px;
+}
+.countdown-amount {
+	font-size: 60px;
+}
+.countdown-period {
+	font-size: 18px;
+}
+
+.notifyform {
+	width: 480px;
+	padding-right: 143px;
+	padding-left: 0;
+	margin: 20px auto;
+	display: block;
+	position: relative;
+}
+.notifyform .btn {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+}
+
+
+
+
+
+@media (min-width: 992px) {
+
+.ad-box h4 {
+	font-size: 34px;
+}
+.ad-box p {
+	font-size: 18px;
+}
+
+.feautes-list li {
+	text-transform: uppercase;
+}
+
+.promo-box {
+	font-size: 26px;
+}
+.promo-box p:last-child {
+	margin-bottom: 0;
+}
+
+.testim-box .head h3 p,
+.info-box .head h3 p,
+.comingsoon-content .head h3 p {
+	font-size: 20px;
+}
+.testim-box .head h3 em,
+.info-box .head h3 em,
+.comingsoon-content .head h3 em {
+	font-size: 40px;
+}
+
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 13px 40px;
+  text-transform: uppercase;
+}
+
+.section-focus .col-sm-9 > p {
+	padding-top: 6px;
+}
+
+.step:last-child {
+	text-align: center;
+}
+.step:before {
+	right: 10px;
+}
+.step p {
+	padding: 0 10px 0 7px;
+	font-size: 14px;
+	display: inline-block;
+}
+.step > span {
+	margin-bottom: 0;
+}
+
+label.label-md {
+	display: inline-block;
+}
+
+.heading-5 h4 {
+	font-size: 60px;
+}
+.heading-5 > span {
+	font-size: 24px;
+}
+
+.contact-list li {
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+.contact-list li .iconic {
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	margin-right: 15px;
+	font-size: 40px;
+	text-align: center;
+	color: #e1e1e1;
+	border: 2px solid #e1e1e1;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+}
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+blockquote {
+	margin-bottom: 40px;
+}
+hr,
+.hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+textarea.form-control {
+	min-height: 120px;
+}
+
+.widget-shipping-info li {
+	font-size: 18px;
+}
+
+.list-4 li {
+	margin-bottom: 8px;
+}
+.main-bar .logo a {
+	padding: 1px 30px 10px 30px;
+	margin-top: -1px;
+	position: relative;
+}
+
+/*** Main-nav ***/
+.main-nav-bar {
+	width:auto;
+	border-top: 0px;
+}
+.main-nav > li > a,
+.footer-links li a {
+	padding: 18px 30px;
+}
+
+.ad-box > figure {
+	width: 120px;
+}
+
+.feautes-list li {
+	padding: 10px 24px;
+	font-weight: 500;
+}
+.feautes-list li:after {
+	font-size: 30px;
+	right: -6px;
+}
+
+.subscription-box {
+	min-height: 515px;
+	margin-bottom: 0px;
+}
+
+.team-boxes .owl-item .item {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+.service-box {
+	margin-bottom: 45px;
+}
+.service-box h3 {
+	margin-bottom: 45px;
+	font-size: 66px;
+}
+.service-box p {
+	margin-bottom: 35px;
+}
+.buttons .btn {
+	margin-left: 9px;
+	margin-right: 9px;
+}
+
+.testim-box {
+	margin-left: -30px;
+	margin-right: -30px;
+}
+.testim-box .head {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.testim-box .text {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.testim-box .head h3 p,
+.info-box .head h3 p,
+.comingsoon-content .head h3 p {
+	font-size: 24px;
+}
+.testim-box .head h3 em,
+.info-box .head h3 em,
+.comingsoon-content .head h3 em {
+	font-size: 55px;
+}
+.testim-box .head h3 span,
+.info-box .head h3 span,
+.comingsoon-content .head h3 span {
+	font-size: 16px;
+}
+.comingsoon-content .head {
+	margin-bottom: 30px;
+}
+
+
+.question-block-container {
+	padding-top: 30px;
+}
+.question-block {
+	margin-bottom: 30px;
+}
+.expert-info-box > figure,
+.expert-info-box h3 {
+	margin-bottom: 40px;
+}
+.expert-info-box p {
+	margin-bottom: 30px;
+}
+
+.step p {
+	padding: 0px 18px 0px 12px;
+}
+.checks {
+	margin-bottom: 20px;
+}
+.checks .checkbox-inline {
+	margin-right: 30px;
+}
+
+
+.prod-review-box > .row {
+	margin-left: -30px;
+	margin-right: -30px;
+}
+.prod-review-box > .row > [class^="col-"] {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.prod-review-box .text:before {
+	left: -30px;
+}
+.prod-review-box .product-meta-info:before {
+	right: -31px;
+}
+
+.aplha-details > ul {
+	width: 20%;
+	padding: 0px 30px;
+}
+
+.error-content {
+	padding: 100px 0px;
+}
+.error-content h1 {
+	font-size: 160px;
+}
+
+.countdown-section {
+	margin: 20px;
+}
+.countdown-amount {
+	font-size: 100px;
+}
+.countdown-period {
+	font-size: 20px;
+}
+.notifyform {
+	width: 640px;
+}
+
+}

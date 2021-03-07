@@ -1,0 +1,6 @@
+
+Nov 22, 2020 10:40:18.99 NEW SESSION
+Nov 22, 2020 10:40:18.99 [1122/104018.953:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+
+Dec 12, 2020 15:03:25.94 NEW SESSION
+Dec 12, 2020 15:03:25.95 [12256:11276:1212/150325.946:ERROR:device_event_log_impl.cc(211)] [15:03:25.946] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
